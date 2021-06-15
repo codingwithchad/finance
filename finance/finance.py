@@ -1,6 +1,8 @@
 import csv
-from categorize import categorize
 from financeutil import toFloat
+from categorize import categorize
+
+
 
 with open('..\\datafiles\\April2021.csv') as csvFile,\
         open('..\\datafiles\\edited\\April2021edited.csv', 'w', newline='') as fout:
